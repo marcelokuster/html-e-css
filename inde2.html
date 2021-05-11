@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;padding: 0;font-size: 100%;font-family: Georgia, 'Times New Roman', Times, serif;font-weight: normal;box-sizing: border-box;border: none;outline: none;
+        }
+        .cabecalho {
+            width: 100%;float: left;padding: 50px 8%;background-color: cornflowerblue;
+        }
+        .cabecalho h1 {
+            color: #fff;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: 30px;
+        }
+        .cabecalho form {
+            width: 30%;float: right;
+        }
+        .cabecalho input [type="text"] {
+            width: 85%;float: left ;padding: 15px 10px;
+        }
+        .menu {
+            width: 100%;float: left;background-color: #111;padding: 18px 8%;
+        }
+        .menu li {
+            float: left;
+        }
+        .menu li a {
+            color: #9d9d9d;margin-right: 25px;
+        }
+        .menu li a:hover {
+            color: #fff;
+        }
+        .social-icons {
+            float: right;
+        }
+        .social-icons a {
+            color: #fff;float: left;margin-left: 12px;
+        }
+        .btn-facebook:hover {
+            color: #3B5998;
+        }
+        .btn-Twitter:hover {
+            color: #54a4d6;
+        }
+        .btn-google:hover {
+            color: #d73d32;
+        }
+        .principal {
+            width: 100%;float: left;padding: 20px 8%;
+        }
+        .sobre {
+            width: 70%;float: left;padding: 0 20px 20px 0;
+        }
+        .sobre h2 {
+            margin-bottom: 15px;color: black;
+        }
+        .sobre img {
+            width: 50%;float: left;border-radius: 5px;margin: 0 15px 15px 0;
+            }
+        .sobre p {
+            text-align: justify;color: black;
+        }
+        .onde-estamos {
+            width: 30%;float: right;padding: 10px 20px;background-color: #f5f5f5;border-radius: 5px;color: #777;
+        }
+        .onde-estamos h2 {
+            margin-bottom: 5px;color: #777;
+        }
+        .onde-estamos iframe {
+            width: 100%; height: 250px;margin: 20px 0;
+        }
+        .onde-estamos li {
+            color: #777;margin-bottom: 10px;
+        }
+        .Newsletter {
+            width: 100%;float: left;background-color: #111;padding: 50px 8%;
+        }
+        .Newsletter h3 {
+            font-size: 1.8em;color: #fff;
+        }
+        .Newsletter p {
+            font-size: 1.2em;color: #fff;
+        }
+        .Newsletter form {
+            width: 100%;float: left;margin-top: 10px;
+        }
+        .Newsletter form input {
+            width: 40%;margin-right: 1%;padding: 15px 10px;border: 1px solid #fff;border-radius: 5px;color: #fff;background-color: initial;float: left;
+        }
+        .Newsletter button {
+            width: 18%;background-color: #fff;padding: 15px 10px;border-radius: 5px;float: right;cursor: pointer;
+        }
+        .rodape {
+            width: 100%;float: left;background-color:cornflowerblue;padding: 20px 8%;
+        }
+        .rodape p {
+            color: #fff;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>
+            <a href="index.html" title="nodeshop - loja de informatica"></a> Nodeshop - loja de informatica </a>
+        </h1>
+        <form method="POST">
+           <input type="text" placeholder="Faça uma busca">
+           <button><i class="fa fa-search fa-lg"></i></button>
+        </form>
+
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="#"> Home</a></li>
+            <li><a href="#"> Produtos</a></li>
+            <li><a href="#"> Serviços</a></li>
+            <li><a href="#"> Contatos</a></li>
+        </ul>
+        <div class="social-icons">
+            <li><a href="#" class="btn-facebook"> Facebook</a></li>
+            <li><a href="#" class="btn-twitter"> Twitter</li>
+            <li><a href="#" class="btn-google"> Google</li>
+        </div>
+    </nav>
+    <main class="principal">
+        <article class="sobre">
+            <h2>Sobre Nós</h2>
+            <img src="C:\Users\user\Desktop\css3\empresa.jpg" alt="nodeshop">
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto fugit dicta, nihil quisquam consectetur dolores, eius rerum ducimus soluta corporis, nam deserunt sapiente suscipit totam ratione cumque cupiditate! Esse, atque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ipsam voluptatem, temporibus a voluptates quaerat necessitatibus repudiandae animi sapiente mollitia dolorem id ullam quod. Placeat deleniti odit aspernatur nisi necessitatibus!
+            </p>
+
+        </article>
+        <aside class="onde-estamos">
+            <h2>Onde estamos</h2>
+            <p>Av. Jucá Leão - Centro Comercial, Itabuna -Ba </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3857.527279011288!2d-39.28657458508717!3d-14.79563630312334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x739aaf0cc0db597%3A0x9dfa10026b580036!2sAv.%20Juca%20Le%C3%A3o%20-%20Centro%20Comercial%2C%20Itabuna%20-%20BA!5e0!3m2!1spt-BR!2sbr!4v1619205807104!5m2!1spt-BR!2sbr" ></iframe> 
+            <h2> Contatos</h2>
+            <ul>
+                <li>Celular:41998735939</li>
+                <li>Telefone:4136992350</li>
+                <li>Email:informatica@nodeshop.com.br</li>
+            </ul>
+        </aside>
+    </main>
+    <section class="Newsletter">
+        <h3>Newsletter</h3>
+        <p>Rebeba nossos promoções por Email</p>
+        <form method="POST">
+            <input type="text" placeholder="seu nome">
+            <input type="email" placeholder="seu email">
+            <button> Cadastrar </button>
+
+        </form>
+    </section>
+    <footer class="rodape">
+        <p> Nodeshop - Todos os direitos reservados</p>
+    </footer>
+    
+    
+</body>
+</html>
